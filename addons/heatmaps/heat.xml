@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<maps>
+ <map name='example_map' gametype='source' modtype='hl2dm'>
+  <minx>-1000</minx>
+  <miny>-1000</miny>
+  <maxx>1000</maxx>
+  <maxy>1000</maxy>
+  <res>600x600</res>
+  <flipv>1</flipv>
+  <fliph>0</fliph>
+ </map>
+</maps>
