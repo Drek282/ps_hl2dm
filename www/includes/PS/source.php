@@ -34,8 +34,12 @@ class PS_source extends PS {
 
 var $class = 'PS::source';
 
-function PS_source(&$db) {
+function __construct(&$db) {
 	parent::PS($db);
+}
+
+function PS_source(&$db) {
+    self::__construct($db);
 }
 
 function worldid_noun($plural = false) {

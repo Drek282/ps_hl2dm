@@ -62,12 +62,12 @@ define("PQ_HL2_SERVERDATA_RESPONSE_VALUE", 	0);
 class PQ_source extends PQ_PARENT {
 
 function __construct($conf) {
-	$this->PQ_source($conf);
+	$this->conf = $conf;		// always save the config to the class variable first
+	$this->init();			// always run the class initialization method
 }
 
 function PQ_source($conf) {
-	$this->conf = $conf;		// always save the config to the class variable first
-	$this->init();			// always run the class initialization method
+    self::__construct($conf);
 }
 
 function init() {
