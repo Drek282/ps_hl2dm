@@ -2,4 +2,5 @@
 
 
 Version 3.2.8b (in progress)
-[Changed] Half-Life 2 Death Match support separated from Half-Life Death Match support.
+* [Changed] Half-Life 2 Death Match support separated from Half-Life Death Match support.
+* [Fixed] PHP 8 errors/warnings.
