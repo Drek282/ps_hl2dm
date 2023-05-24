@@ -91,7 +91,7 @@ function gametype() {
 }
 
 function modtype() {
-	$m = $this->data['gamedir'];
+	$m = $this->data['gamedir'] ?? null;
 	return $m;
 }
 
