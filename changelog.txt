@@ -5,3 +5,4 @@ Version 3.2.8n (in progress)
 * [Changed] Half-Life 2 Death Match support separated from Half-Life Death Match support.
 * [Fixed] PHP 8 errors/warnings.
 * [Changed] Version string to indicate "nightly" status of current working version.
+* [Improved] The CC theme is now a child theme.
