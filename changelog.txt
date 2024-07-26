@@ -7,3 +7,4 @@ Version 3.2.8n (in progress)
 * [Changed] Version string to indicate "nightly" status of current working version.
 * [Improved] The CC theme is now a child theme.
 * [Added] Mod logo.
+* [Fixed] Missing declarations.
